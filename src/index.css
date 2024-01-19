@@ -1,4 +1,5 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+/* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -7,9 +8,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #b3d9ff, #4b7aaa);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: inset 5px 5px 10px #000000;
+}
+
+input:focus {
+  outline: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
